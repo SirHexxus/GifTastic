@@ -1,3 +1,4 @@
+/* General Style Rules For Standard Elements */
 * {
     color: white;
     text-align: center;
@@ -26,4 +27,45 @@ footer {
     background-color: rgb(30, 50, 50);
     border-top: solid 5px rgb(0, 0, 70);
     color: darkgray;
+}
+
+/* Style Rules By Element Class */
+.row {
+    display: block;
+    width: 90%;
+    margin: 2% 5%;
+    border: solid 1px;
+    background: blue;
+}
+.container {
+    display: block;
+    border: solid 1px;
+    background: black;
+    opacity: 0.5;
+    margin: 10px;
+    overflow: auto;
+}
+
+.btn {
+    color: lightblue;
+    background: darkslategrey;
+}
+
+/* Style Rules By Element ID */
+
+#button-container {
+    width: 90%;
+    height: 20%;
+    margin-left: 5%;
+}
+
+#form-container {
+    float: left;
+    width: 33%;
+}
+
+#gif-container {
+    float: left;
+    height: 45em;
+    width: 63%;
 }
